@@ -1,0 +1,83 @@
+$hFont: "Space Mono", monospace;
+$pFont: "Space Mono", monospace;
+$navFont: "Syne Mono", monospace;
+$navColor: rgba(40, 46, 52, 0.9);
+$navHover: rgba(204, 36, 20);
+* {
+	margin: 0;
+	padding: 0;
+}
+h2,
+h3,
+h4,
+h5 {
+	font-family: $hFont;
+}
+p,
+a {
+	font-family: $pFont;
+}
+body {
+	background-image: url(https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	min-height: 500px;
+	backdrop-filter: opacity(2px);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0;
+}
+.blog-links {
+	i {
+		color: rgba(40, 46, 52, 0.9);
+		padding: 5px;
+	}
+	i:hover {
+		color: $navHover;
+	}
+}
+#main-nav {
+	font-family: $navFont;
+	background-color: $navColor;
+}
+.blog-post {
+	background-color: $navColor;
+}
+.side-bar {
+	height: 100%;
+}
+.side-bar {
+	a {
+		text-decoration: none;
+		color: white;
+	}
+	a:hover {
+		color: $navHover;
+	}
+}
+
+// Front page
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bgimg-1 {
+	background-image: url("https://images.pexels.com/photos/8107981/pexels-photo-8107981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	min-height: 800px;
+}
+.bgimg-2 {
+	background-image: url("https://images.pexels.com/photos/4904563/pexels-photo-4904563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	min-height: 600px;
+}
+
+.bgimg-3 {
+	background-image: url("https://images.pexels.com/photos/4904564/pexels-photo-4904564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	min-height: 600px;
+}
